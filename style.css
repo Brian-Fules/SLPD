@@ -1,0 +1,127 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: Arial;
+}
+.sidebar {
+    width: 15vw;
+    height: 50%;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+}
+.logo {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.navi {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #000000;
+}
+.principal {
+    margin-left: 15vw;
+    height: auto;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 6vh;
+}
+h1 {
+    text-shadow: red 0px 0px 4px;
+}
+h4 {
+    text-align: right;
+}
+.article {
+    background-color: rgba(0, 0, 0, 0.800);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.tituloPrincipal {
+    font-size: 5vh;
+    text-align: center;
+    margin: 0px;
+
+}
+.sidebar li a:link, a:visited {
+    background-color: #000000;
+    color: white;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 4.5vh;
+    box-sizing: border-box;
+    width: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+  }
+footer {
+    width: 100%;
+    height: 5vh;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+}
+footer img, footer a{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+footer a  {
+    width: max-content;
+}
+a.link{
+    color: red;
+    text-decoration: none;
+}
+div.galeria {
+    margin: 5px;
+    border: 1px solid #000000;
+    float: left;
+    width: 200px;
+    height: 150px;
+    background: #000000;
+}
+div.galeria img, div.galeria a {
+    width: 100%;
+    height: 100%;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit]{
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+}
